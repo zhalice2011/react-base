@@ -1,7 +1,6 @@
-
 // 你也可以在第一层路由加载主布局容器，然后在子路由加载菜单和内容路由
 
-import MainContainer from '@/containers/Main'
+import MainContainer from '@/containers/Main';
 
 /**
  * title  链接名称
@@ -17,7 +16,7 @@ const routes = [
     exact: true,
     component: MainContainer,
     // routes: 子路由 格式和本文件一致
-  }
-]
+  },
+];
 
-export default routes
+export default routes;

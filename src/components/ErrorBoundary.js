@@ -1,16 +1,16 @@
-import { Component } from 'react'
+import { Component } from 'react';
 
 export default class ErrorBoundary extends Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   componentDidCatch(error, info) {
     /* eslint no-console: 0 */
-    console.log(error, info)
+    console.log(error, info);
   }
 
   render() {
-    return this.props.children
+    return this.props.children;
   }
 }
